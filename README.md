@@ -1,6 +1,9 @@
 # Hello World Bank
 This is Component Based Software Engineering Assignment developed using Java EE
 
+C++ version: https://github.com/leannetan97/MyHelloWorldBank
+Python version: https://github.com/leannetan97/PyHelloWorldBank
+
 ## Introduction
 We aim to implement a Hello World Bank system, which is a banking system, which applies the Component-based feature of EJB, which stands for Enterprise Java Beans. The system would allow the user to check his balance, withdraw, and deposit cash into it. We use EJB by separating two components which is the AccountStatefulBean component (which represents the AccountBeanRemote Interface), and the ServiceFeesBean component which (represents the ServiceFeesBeanLocal Interface), and both are deployed in the Glassfish Server.  
  
@@ -43,8 +46,3 @@ The requirements required in this application would include:-
 9. Create Application Client, HelloWorldBank 
 10.Adding the Class Library to call Enterprise Bean, <i>AccountBean</i>
 11.Run Application Client, <i>HelloWorldBank</i>
-
-## Contributors:
-1. Low Jie Fong
-2. Lee Chia Jee 
-3. Tan Lay Yan
